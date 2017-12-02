@@ -409,6 +409,12 @@ a:hover
 	padding-top: 3px;
 }
 
+.serv-text a:hover {
+	transition: 0.3s ease;
+	color: #a2a2a2;
+	border-color: #a2a2a2;
+}
+
 .vert { 
 	display: none;
 	position: relative;
@@ -433,29 +439,29 @@ a:hover
     background-repeat: no-repeat;
     overflow: hidden;
     position: relative;
-    height: 500px;
+    height: 250px;
 }
 
 .about h4 {
-	padding-top: 50px;
+	padding-top: 30px;
 	font-family: 'Lato';
 	color:  #f3f3f3;
-	font-size: 28px;
+	font-size: 22px;
 	font-weight: 400;
 	letter-spacing: 2.8px;
 	text-align: center;
 }
 
 .about-text {
-	padding-top: 30px;
+	padding-top: 20px;
 	margin-left: 100px;
 }
 
 .about-text p {
-	margin-top: : 30px;
+	margin-top: : 25px;
 	font-family: Merriweather;
 	color:  #f3f3f3;
-	font-size: 22px;
+	font-size: 14px;
 	font-weight: 100;
 	line-height: 45px;
 	text-align: left;
@@ -463,8 +469,8 @@ a:hover
 }
 
 .about-img {
-	display: inline-block;
-	position: relative;
+	width: 150px;
+	height: 150px;
 }
 
 .contacts {
@@ -472,15 +478,15 @@ a:hover
 }
 
 .cont-block {
-	height: 800px;
+	height: 500px;
 	background-color: #000;
 }
 
 .cont-block h4 {
-	margin-top: 100px;
+	margin-top: 50px;
 	font-family: Lato;
 	color:  #f3f3f3;
-	font-size: 26px;
+	font-size: 22px;
 	font-weight: 400;
 	line-height: 45px;
 	text-align: center;
@@ -489,27 +495,27 @@ a:hover
 .cont-block p {
 	font-family: Merriweather;
 	color:  #f3f3f3;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 400;
 	line-height: 32px;
 	text-align: left;
 }
 
 .cont-text {
-	margin-top: 80px;
+	margin-top: 50px;
 	margin-left: 50px;
 }
 
 .cont-text ul li {
 	list-style: none;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 
 }
 
 .cont-text p {
 	font-family: Merriweather;
 	color:  #f3f3f3;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 400;
 	line-height: 32px;
 	text-align: left;
@@ -590,5 +596,10 @@ footer {
 	line-height: 15px;
 	text-align: left;
 	letter-spacing: 1px;
+}
+
+.map {
+	color: #000;
+	opacity: 0.2;
 }
 
